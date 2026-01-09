@@ -25,3 +25,38 @@ Simulation results clearly show yaw instability in ESC-OFF conditions and stabil
 
 The project is structured as follows:
 
+---
+
+## Key Features
+
+- **Yaw-rate tracking:** Reference yaw rate computed from vehicle speed and steering input
+- **ESC activation logic:** Based on yaw-rate error thresholds
+- **Yaw moment control:** Computed yaw moment converted into differential brake forces
+- **Differential braking:** Automatic left/right brake selection based on yaw moment sign
+- **State estimation:** Sideslip angle estimated from lateral acceleration and yaw rate
+- **Nonlinear dynamics:** Tire force saturation and actuator limits included
+
+---
+
+## Simulation Scenarios
+
+- Constant steering input (±8°)
+- ESC OFF: yaw instability and growing sideslip
+- ESC ON: stabilized yaw rate and bounded sideslip
+- Comparison of vehicle trajectories with and without ESC
+
+---
+
+## Tools Used
+
+- MATLAB / Simulink
+- Nonlinear vehicle dynamics modeling
+- Control-oriented system design
+
+---
+
+## Author
+
+**Muhannad**  
+Automotive & Mechatronics Engineering  
+
