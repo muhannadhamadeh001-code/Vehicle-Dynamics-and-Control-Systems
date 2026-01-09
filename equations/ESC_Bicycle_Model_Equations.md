@@ -97,7 +97,7 @@ with e_th_on > e_th_off (hysteresis)
 ---
 
 ## 7) Yaw Moment Command (Mz_cmd)
-Controller structure you built (typical):
+Controller structure built (typical):
 - Mz_cmd = −Kr (r − r_ref_sat) − Kβ β   (or β̂ when using observer)
 
 Then saturate:
