@@ -158,7 +158,7 @@ Road curvature:
 
 ---
 
-## Summary of What Each Section Does
+## What Each Section Does
 - Slip angles → connect vehicle motion to tire forces  
 - Tire saturation → makes the model realistic/nonlinear  
 - β̇ and ṙ → core bicycle dynamics  
