@@ -50,26 +50,6 @@ A **PI-based ABS attempt** was also implemented as an engineering experiment, bu
   - saturation & sign switching
 
 ---
-
-## Files
-- `docs/equations.md` — all equations used in the plant & controller
-- `docs/controller_design.md` — relay ABS design, tuning notes
-- `docs/pi_attempt_postmortem.md` — PI implementation, wiring, and failure analysis
-- `models/*.slx` — Simulink models
-- `figures/` — screenshots and scopes used in report
-
----
-
-## How to Run
-1. Open `models/LongitudinalPlant_QuarterCar.slx`
-2. Ensure parameters (Fz, R, J, m, etc.) are loaded (workspace script or model workspace)
-3. Run simulation
-4. Open scopes:
-   - lambda
-   - v vs Rω
-   - Tb_cmd
-   - Fx
-
 ---
 
 ## Notes
