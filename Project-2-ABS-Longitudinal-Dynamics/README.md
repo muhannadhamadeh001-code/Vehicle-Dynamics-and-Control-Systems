@@ -50,7 +50,6 @@ A **PI-based ABS attempt** was also implemented as an engineering experiment, bu
   - saturation & sign switching
 
 ---
----
 
 ## Notes
 This project intentionally emphasizes **control realism**: ABS is fundamentally a hybrid controller (logic + rate control), not purely linear PI.
